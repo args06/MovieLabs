@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">MovieLabs</string>
+    <string name="title_home">Home</string>
+    <string name="title_search">Search</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="coming_soon_title">Coming Soon</string>
+    <string name="rating_dummy">9.0</string>
+    <string name="movie_title_dummy">Spider-Man: Across the Spider-Verse</string>
+    <string name="year_dummy">2023</string>
+    <string name="content_rating_dummy">PG-13</string>
+    <string name="box_office_title">Top Box Office</string>
+    <string name="number_dummy">1</string>
+    <string name="week_dummy">Week 1</string>
+    <string name="center_dot">·</string>
+    <string name="gross_dummy">$61.0M</string>
+    <string name="genre_dummy">Action</string>
+    <string name="lorem">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</string>
+    <string name="rating_full_dummy">9.0/10</string>
+    <string name="metasave">Metasave</string>
+    <string name="meta_score_dummy">86</string>
+    <string name="cast_title">Cast</string>
+    <string name="actor_name_dummy">Shameik Moore</string>
+    <string name="character_name_dummy">Miles Morales</string>
+    <string name="see_all">See All</string>
+</resources>
