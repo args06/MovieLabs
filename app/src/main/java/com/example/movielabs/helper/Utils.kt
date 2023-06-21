@@ -25,4 +25,8 @@ object Utils {
     fun getDesc(data: String?) : String? {
         return data?.substring(5)
     }
+
+    fun getFullRatingReview(rating: String) : String? {
+        return "$rating / 10"
+    }
 }

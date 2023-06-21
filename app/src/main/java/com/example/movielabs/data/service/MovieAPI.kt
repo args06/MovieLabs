@@ -1,9 +1,6 @@
 package com.example.movielabs.data.service
 
-import com.example.movielabs.data.model.BoxOfficeResponse
-import com.example.movielabs.data.model.MovieDetailResponse
-import com.example.movielabs.data.model.MovieResponse
-import com.example.movielabs.data.model.SearchResponse
+import com.example.movielabs.data.model.*
 import com.example.movielabs.helper.Constant
 import retrofit2.Call
 import retrofit2.http.GET
@@ -25,4 +22,7 @@ interface MovieAPI {
 
     @GET("SearchMovie/${Constant.API_KEY}/{keyword}")
     fun getSearchList(@Path("keyword") keyword : String): Call<SearchResponse>
+
+    @GET("Reviews/${Constant.API_KEY}/{movieId}")
+    fun getReviewList(@Path("movieId") movieId : String): Call<ReviewResponse>
 }

@@ -4,7 +4,7 @@
     <string name="title_search">Search</string>
     <string name="title_notifications">Notifications</string>
     <string name="coming_soon_title">Coming Soon</string>
-    <string name="rating_dummy">9.0</string>
+    <string name="rating_dummy">9.0 / 10</string>
     <string name="movie_title_dummy">Spider-Man: Across the Spider-Verse</string>
     <string name="year_dummy">2023</string>
     <string name="content_rating_dummy">PG-13</string>
@@ -22,4 +22,12 @@
     <string name="actor_name_dummy">Shameik Moore</string>
     <string name="character_name_dummy">Miles Morales</string>
     <string name="see_all">See All</string>
+    <string name="user_review_title">User Review</string>
+    <string name="review_item_title">This movie is Awesome and Nice to watch with your family</string>
+    <string name="total_rating_dummy">56 Ratings</string>
+    <string name="spoiler">SPOILER</string>
+    <string name="see_more">See More</string>
+    <string name="see_less">See Less</string>
+    <string name="username_dummy">args06</string>
+    <string name="average_review">Average Review</string>
 </resources>

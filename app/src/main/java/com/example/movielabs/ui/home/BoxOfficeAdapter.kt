@@ -26,7 +26,6 @@ class BoxOfficeAdapter(private val listMovie: List<BoxOfficeItem>) : RecyclerVie
         val movieItem = listMovie[position]
         holder.binding.apply {
             Glide.with(holder.itemView.context).load(movieItem.image).into(ivBoxOfficeImage)
-            tvNumber.text = movieItem.rank
             tvBoxOfficeTitle.text = movieItem.title
             tvWeeks.text = getWeeks(movieItem.weeks)
             tvGross.text = movieItem.gross

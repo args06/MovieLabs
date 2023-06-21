@@ -40,7 +40,8 @@
                     android:layout_height="wrap_content"
                     tools:text="@string/actor_name_dummy"
                     android:maxLines="2"
-                    android:ellipsize="marquee"/>
+                    android:ellipsize="marquee"
+                    android:textStyle="bold"/>
 
                 <TextView
                     android:id="@+id/tv_character_name"
